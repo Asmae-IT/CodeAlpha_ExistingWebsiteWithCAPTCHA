@@ -40,7 +40,7 @@ if(isset($_POST["save"])){ // If i click on the button 'Enregistrer' the data wi
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/design.css">
   </head>
   <body id="page2">
     <a href="Logout.php" class="text-white text-right pr-5 pt-5"><p class="">Logout</p></a>

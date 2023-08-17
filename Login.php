@@ -61,13 +61,13 @@ if(isset($_POST["login"])){ // If i click on the button 'Enregistrer' the data w
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./assets/styles.css" />
+    <link rel="stylesheet" href="./assets/design.css" />
   </head>
   <body>
     <div class="container page1">
       <div class="row">
         <div class="col-md-6 left-side">
-          <img src="./assets/login.jpg" alt="login image" width="500;" />
+          <img src="./assets/login.jpg" class="img-fluid" alt="login image" width="500;" />
         </div>
         <div class="col-md-6 right-side">
           <hr class="w-25">
