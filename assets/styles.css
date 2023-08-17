@@ -1,0 +1,42 @@
+/********** Login Page **********/
+.page1 {
+  margin-top: 110px;
+}
+.page1 .left-side {
+  margin-top: 40px;
+}
+.page1 .right-side {
+  margin-top: 40px;
+}
+.page1 hr {
+  margin-left: 0px;
+  background-color: #319491;
+  height: 3px;
+}
+.page1 .form-group #login {
+  background-color: #319491;
+}
+.page1 .form-group #captcha {
+  letter-spacing: 12px;
+  text-decoration-line: line-through;
+  text-decoration-thickness: 2px;
+}
+/********** Add Page **********/
+#page2 {
+  background-color: #319491;
+}
+
+.page2 {
+  margin-top: 70px;
+  background-color: #eef2fe;
+  border-radius: 10px;
+}
+#save {
+  background-color: #319491;
+}
+
+/********** Display Page **********/
+
+#page3 {
+  background-color: #319491;
+}
