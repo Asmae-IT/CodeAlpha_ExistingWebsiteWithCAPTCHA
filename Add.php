@@ -57,8 +57,8 @@ if(isset($_POST["save"])){ // If i click on the button 'Enregistrer' the data wi
           </div>
           <div class="form-group">
             <label>Gender</label><br/>
-            <input type="radio" name="gender" id="male" checked> Male 
-             <input type="radio" name="gender" id="female" class="ml-5"> Female
+            <input type="radio" name="gender" id="male" value="Male"> Male 
+             <input type="radio" name="gender" id="female" value="Female" class="ml-5"> Female
              
           </div>
           <div class="form-group ">
