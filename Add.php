@@ -6,7 +6,7 @@ if(!isset($_SESSION["id"])){
   header("Location: Login.php");
 }
 
-if(isset($_POST["save"])){ // If i click on the button 'Enregistrer' the data will be sent to the server 
+if(isset($_POST["save"])){ 
 
   $first_name = $_POST["first_name"];
   $last_name = $_POST["last_name"];
