@@ -7,7 +7,7 @@ if(isset($_SESSION["admin_id"])){
   header("Location: Add.php");
 }
 
-if(isset($_POST["login"])){ // If i click on the button 'Enregistrer' the data will be sent to the server 
+if(isset($_POST["login"])){ 
 
     $username = $_POST["username"];
     $password = $_POST["password"];
@@ -116,7 +116,7 @@ if(isset($_POST["login"])){ // If i click on the button 'Enregistrer' the data w
       </div>
     </div>
     <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- jQuery first, then Bootstrap JS -->
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
