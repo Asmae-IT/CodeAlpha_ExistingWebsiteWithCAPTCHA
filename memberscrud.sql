@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le : ven. 18 août 2023 à 00:05
+-- Généré le : dim. 20 août 2023 à 11:39
 -- Version du serveur : 8.0.31
 -- Version de PHP : 8.0.26
 
@@ -35,14 +35,15 @@ CREATE TABLE IF NOT EXISTS `members` (
   `gender` varchar(30) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
   `email` varchar(200) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=210 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=211 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
 -- Déchargement des données de la table `members`
 --
 
 INSERT INTO `members` (`id`, `first_name`, `last_name`, `gender`, `email`) VALUES
-(209, 'Akram', 'Amine', 'Male', 'Akram.amine@gmail.com');
+(209, 'Akram', 'Amine', 'on', 'Akram.amine@gmail.com'),
+(210, 'gklerjglerljhler', 'gjlkrekljerlher', 'Male', 'lallasalma@gmail.com');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
